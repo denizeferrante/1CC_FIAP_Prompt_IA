@@ -1,0 +1,22 @@
+# Segredos
+.env
+*.env
+secrets.json
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Arquivos gerados nos notebooks
+*.mp3
+*.wav
+chroma*/
+faiss_index/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
